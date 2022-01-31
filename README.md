@@ -40,4 +40,5 @@ async def dog(ctx):
 async def tiger(ctx):
   await ctx.reply(f"https://api.beapdev.net/api/tigers/{jpg}.jpg")
 
+commands.run('token')
 ```
