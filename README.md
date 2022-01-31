@@ -11,6 +11,7 @@ jpg = random.randint(1,50)
 
 print(f"https://api.beapdev.net/api/cats/{jpg}.jpg") # CATS
 print(f"https://api.beapdev.net/api/dogs/{jpg}.jpg") # DOGS
+print(f"https://api.beapdev.net/api/tigers/{jpg}.jpg") # TIGERS
 
 ```
 
@@ -34,5 +35,9 @@ async def cat(ctx):
 @commands.command()
 async def dog(ctx):
   await ctx.reply(f"https://api.beapdev.net/api/dogs/{jpg}.jpg")
+
+@commands.command()
+async def tiger(ctx):
+  await ctx.reply(f"https://api.beapdev.net/api/tigers/{jpg}.jpg")
 
 ```
