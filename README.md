@@ -2,6 +2,10 @@
 
 A API which is has images ready to be used in code.
 
+- Cats
+- Dogs
+- Tigers
+
 **Examples:**
 
 ```
